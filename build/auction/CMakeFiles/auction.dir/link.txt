@@ -1,0 +1,2 @@
+/usr/bin/ar qc libauction.a  CMakeFiles/auction.dir/Auction.cpp.o CMakeFiles/auction.dir/Throw.cpp.o CMakeFiles/auction.dir/User.cpp.o
+/usr/bin/ranlib libauction.a

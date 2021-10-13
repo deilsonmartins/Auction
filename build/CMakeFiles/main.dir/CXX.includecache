@@ -1,0 +1,30 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/deilson/Alura/auction/src/auction/Auction.hpp
+string
+-
+vector
+-
+Throw.hpp
+/home/deilson/Alura/auction/src/auction/Throw.hpp
+
+/home/deilson/Alura/auction/src/auction/Throw.hpp
+User.hpp
+/home/deilson/Alura/auction/src/auction/User.hpp
+
+/home/deilson/Alura/auction/src/auction/User.hpp
+string
+-
+
+/home/deilson/Alura/auction/src/main.cpp
+iostream
+-
+auction/Auction.hpp
+/home/deilson/Alura/auction/src/auction/Auction.hpp
+

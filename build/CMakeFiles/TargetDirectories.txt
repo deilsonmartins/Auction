@@ -1,0 +1,6 @@
+/home/deilson/Alura/auction/build/CMakeFiles/rebuild_cache.dir
+/home/deilson/Alura/auction/build/CMakeFiles/edit_cache.dir
+/home/deilson/Alura/auction/build/CMakeFiles/main.dir
+/home/deilson/Alura/auction/build/auction/CMakeFiles/rebuild_cache.dir
+/home/deilson/Alura/auction/build/auction/CMakeFiles/edit_cache.dir
+/home/deilson/Alura/auction/build/auction/CMakeFiles/auction.dir
