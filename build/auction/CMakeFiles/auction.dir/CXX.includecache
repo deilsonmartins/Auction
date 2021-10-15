@@ -6,10 +6,6 @@
 
 #IncludeRegexTransform: 
 
-/home/deilson/Alura/auction/src/auction/Auction.cpp
-Auction.hpp
-/home/deilson/Alura/auction/src/auction/Auction.hpp
-
 /home/deilson/Alura/auction/src/auction/Auction.hpp
 string
 -
@@ -18,17 +14,23 @@ vector
 Throw.hpp
 /home/deilson/Alura/auction/src/auction/Throw.hpp
 
-/home/deilson/Alura/auction/src/auction/Throw.cpp
-Throw.hpp
-/home/deilson/Alura/auction/src/auction/Throw.hpp
+/home/deilson/Alura/auction/src/auction/Evaluator.cpp
+Evaluator.hpp
+/home/deilson/Alura/auction/src/auction/Evaluator.hpp
+iostream
+-
+
+/home/deilson/Alura/auction/src/auction/Evaluator.hpp
+Auction.hpp
+/home/deilson/Alura/auction/src/auction/Auction.hpp
+bits/stdc++.h
+-
 
 /home/deilson/Alura/auction/src/auction/Throw.hpp
 User.hpp
 /home/deilson/Alura/auction/src/auction/User.hpp
-
-/home/deilson/Alura/auction/src/auction/User.cpp
-User.hpp
-/home/deilson/Alura/auction/src/auction/User.hpp
+string
+-
 
 /home/deilson/Alura/auction/src/auction/User.hpp
 string

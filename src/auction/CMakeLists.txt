@@ -9,10 +9,12 @@ target_sources(
         Auction.hpp
         Throw.hpp
         User.hpp
+        Evaluator.hpp
     PRIVATE
         Auction.cpp
         Throw.cpp
         User.cpp
+        Evaluator.cpp
 )
 
 target_include_directories(

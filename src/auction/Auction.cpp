@@ -9,5 +9,6 @@ const std::vector<Throw> &Auction::get_throws() const
 
 void Auction::bid(const Throw &t)
 {
-    throws.push_back(t);
+    if (throws.size() == 0 || t.get_user() != throws.back().get_user())
+        throws.push_back(t);
 };

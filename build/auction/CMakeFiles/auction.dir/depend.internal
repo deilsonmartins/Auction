@@ -6,6 +6,12 @@ auction/CMakeFiles/auction.dir/Auction.cpp.o
  /home/deilson/Alura/auction/src/auction/Auction.hpp
  /home/deilson/Alura/auction/src/auction/Throw.hpp
  /home/deilson/Alura/auction/src/auction/User.hpp
+auction/CMakeFiles/auction.dir/Evaluator.cpp.o
+ /home/deilson/Alura/auction/src/auction/Auction.hpp
+ /home/deilson/Alura/auction/src/auction/Evaluator.cpp
+ /home/deilson/Alura/auction/src/auction/Evaluator.hpp
+ /home/deilson/Alura/auction/src/auction/Throw.hpp
+ /home/deilson/Alura/auction/src/auction/User.hpp
 auction/CMakeFiles/auction.dir/Throw.cpp.o
  /home/deilson/Alura/auction/src/auction/Throw.cpp
  /home/deilson/Alura/auction/src/auction/Throw.hpp

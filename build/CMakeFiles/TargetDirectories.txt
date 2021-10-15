@@ -4,3 +4,6 @@
 /home/deilson/Alura/auction/build/auction/CMakeFiles/rebuild_cache.dir
 /home/deilson/Alura/auction/build/auction/CMakeFiles/edit_cache.dir
 /home/deilson/Alura/auction/build/auction/CMakeFiles/auction.dir
+/home/deilson/Alura/auction/build/tests/CMakeFiles/rebuild_cache.dir
+/home/deilson/Alura/auction/build/tests/CMakeFiles/edit_cache.dir
+/home/deilson/Alura/auction/build/tests/CMakeFiles/tests.dir

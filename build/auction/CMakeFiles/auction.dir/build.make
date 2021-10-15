@@ -96,11 +96,25 @@ auction/CMakeFiles/auction.dir/User.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/auction.dir/User.cpp.s"
 	cd /home/deilson/Alura/auction/build/auction && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/deilson/Alura/auction/src/auction/User.cpp -o CMakeFiles/auction.dir/User.cpp.s
 
+auction/CMakeFiles/auction.dir/Evaluator.cpp.o: auction/CMakeFiles/auction.dir/flags.make
+auction/CMakeFiles/auction.dir/Evaluator.cpp.o: /home/deilson/Alura/auction/src/auction/Evaluator.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/deilson/Alura/auction/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object auction/CMakeFiles/auction.dir/Evaluator.cpp.o"
+	cd /home/deilson/Alura/auction/build/auction && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/auction.dir/Evaluator.cpp.o -c /home/deilson/Alura/auction/src/auction/Evaluator.cpp
+
+auction/CMakeFiles/auction.dir/Evaluator.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/auction.dir/Evaluator.cpp.i"
+	cd /home/deilson/Alura/auction/build/auction && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/deilson/Alura/auction/src/auction/Evaluator.cpp > CMakeFiles/auction.dir/Evaluator.cpp.i
+
+auction/CMakeFiles/auction.dir/Evaluator.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/auction.dir/Evaluator.cpp.s"
+	cd /home/deilson/Alura/auction/build/auction && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/deilson/Alura/auction/src/auction/Evaluator.cpp -o CMakeFiles/auction.dir/Evaluator.cpp.s
+
 # Object files for target auction
 auction_OBJECTS = \
 "CMakeFiles/auction.dir/Auction.cpp.o" \
 "CMakeFiles/auction.dir/Throw.cpp.o" \
-"CMakeFiles/auction.dir/User.cpp.o"
+"CMakeFiles/auction.dir/User.cpp.o" \
+"CMakeFiles/auction.dir/Evaluator.cpp.o"
 
 # External object files for target auction
 auction_EXTERNAL_OBJECTS =
@@ -108,9 +122,10 @@ auction_EXTERNAL_OBJECTS =
 auction/libauction.a: auction/CMakeFiles/auction.dir/Auction.cpp.o
 auction/libauction.a: auction/CMakeFiles/auction.dir/Throw.cpp.o
 auction/libauction.a: auction/CMakeFiles/auction.dir/User.cpp.o
+auction/libauction.a: auction/CMakeFiles/auction.dir/Evaluator.cpp.o
 auction/libauction.a: auction/CMakeFiles/auction.dir/build.make
 auction/libauction.a: auction/CMakeFiles/auction.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/deilson/Alura/auction/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX static library libauction.a"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/deilson/Alura/auction/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking CXX static library libauction.a"
 	cd /home/deilson/Alura/auction/build/auction && $(CMAKE_COMMAND) -P CMakeFiles/auction.dir/cmake_clean_target.cmake
 	cd /home/deilson/Alura/auction/build/auction && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/auction.dir/link.txt --verbose=$(VERBOSE)
 

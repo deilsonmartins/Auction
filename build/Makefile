@@ -136,32 +136,99 @@ auction/fast:
 	$(MAKE) -f auction/CMakeFiles/auction.dir/build.make auction/CMakeFiles/auction.dir/build
 .PHONY : auction/fast
 
-main.o: main.cpp.o
+#=============================================================================
+# Target rules for targets named tests
 
-.PHONY : main.o
+# Build rule for target.
+tests: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 tests
+.PHONY : tests
+
+# fast build rule for target.
+tests/fast:
+	$(MAKE) -f tests/CMakeFiles/tests.dir/build.make tests/CMakeFiles/tests.dir/build
+.PHONY : tests/fast
+
+tests/evaluation.o: tests/evaluation.cpp.o
+
+.PHONY : tests/evaluation.o
 
 # target to build an object file
-main.cpp.o:
-	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/main.cpp.o
-.PHONY : main.cpp.o
+tests/evaluation.cpp.o:
+	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/tests/evaluation.cpp.o
+.PHONY : tests/evaluation.cpp.o
 
-main.i: main.cpp.i
+tests/evaluation.i: tests/evaluation.cpp.i
 
-.PHONY : main.i
+.PHONY : tests/evaluation.i
 
 # target to preprocess a source file
-main.cpp.i:
-	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/main.cpp.i
-.PHONY : main.cpp.i
+tests/evaluation.cpp.i:
+	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/tests/evaluation.cpp.i
+.PHONY : tests/evaluation.cpp.i
 
-main.s: main.cpp.s
+tests/evaluation.s: tests/evaluation.cpp.s
 
-.PHONY : main.s
+.PHONY : tests/evaluation.s
 
 # target to generate assembly for a file
-main.cpp.s:
-	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/main.cpp.s
-.PHONY : main.cpp.s
+tests/evaluation.cpp.s:
+	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/tests/evaluation.cpp.s
+.PHONY : tests/evaluation.cpp.s
+
+tests/main.o: tests/main.cpp.o
+
+.PHONY : tests/main.o
+
+# target to build an object file
+tests/main.cpp.o:
+	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/tests/main.cpp.o
+.PHONY : tests/main.cpp.o
+
+tests/main.i: tests/main.cpp.i
+
+.PHONY : tests/main.i
+
+# target to preprocess a source file
+tests/main.cpp.i:
+	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/tests/main.cpp.i
+.PHONY : tests/main.cpp.i
+
+tests/main.s: tests/main.cpp.s
+
+.PHONY : tests/main.s
+
+# target to generate assembly for a file
+tests/main.cpp.s:
+	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/tests/main.cpp.s
+.PHONY : tests/main.cpp.s
+
+tests/user.o: tests/user.cpp.o
+
+.PHONY : tests/user.o
+
+# target to build an object file
+tests/user.cpp.o:
+	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/tests/user.cpp.o
+.PHONY : tests/user.cpp.o
+
+tests/user.i: tests/user.cpp.i
+
+.PHONY : tests/user.i
+
+# target to preprocess a source file
+tests/user.cpp.i:
+	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/tests/user.cpp.i
+.PHONY : tests/user.cpp.i
+
+tests/user.s: tests/user.cpp.s
+
+.PHONY : tests/user.s
+
+# target to generate assembly for a file
+tests/user.cpp.s:
+	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/tests/user.cpp.s
+.PHONY : tests/user.cpp.s
 
 # Help Target
 help:
@@ -173,9 +240,16 @@ help:
 	@echo "... edit_cache"
 	@echo "... main"
 	@echo "... auction"
-	@echo "... main.o"
-	@echo "... main.i"
-	@echo "... main.s"
+	@echo "... tests"
+	@echo "... tests/evaluation.o"
+	@echo "... tests/evaluation.i"
+	@echo "... tests/evaluation.s"
+	@echo "... tests/main.o"
+	@echo "... tests/main.i"
+	@echo "... tests/main.s"
+	@echo "... tests/user.o"
+	@echo "... tests/user.i"
+	@echo "... tests/user.s"
 .PHONY : help
 
 

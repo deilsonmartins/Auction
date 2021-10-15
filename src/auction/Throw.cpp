@@ -6,3 +6,8 @@ float Throw::get_value() const
 {
     return value;
 };
+
+std::string Throw::get_user() const
+{
+    return user.get_name();
+}

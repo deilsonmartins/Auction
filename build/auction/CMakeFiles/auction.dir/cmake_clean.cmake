@@ -1,5 +1,6 @@
 file(REMOVE_RECURSE
   "CMakeFiles/auction.dir/Auction.cpp.o"
+  "CMakeFiles/auction.dir/Evaluator.cpp.o"
   "CMakeFiles/auction.dir/Throw.cpp.o"
   "CMakeFiles/auction.dir/User.cpp.o"
   "libauction.a"

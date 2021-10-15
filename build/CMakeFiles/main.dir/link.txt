@@ -1,1 +1,1 @@
-/usr/bin/c++     CMakeFiles/main.dir/main.cpp.o  -o main  auction/libauction.a 
+/usr/bin/c++     CMakeFiles/main.dir/tests/user.cpp.o CMakeFiles/main.dir/tests/main.cpp.o CMakeFiles/main.dir/tests/evaluation.cpp.o  -o main  auction/libauction.a tests/libtests.a 

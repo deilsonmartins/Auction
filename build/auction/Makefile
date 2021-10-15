@@ -152,6 +152,33 @@ Auction.cpp.s:
 	cd /home/deilson/Alura/auction/build && $(MAKE) -f auction/CMakeFiles/auction.dir/build.make auction/CMakeFiles/auction.dir/Auction.cpp.s
 .PHONY : Auction.cpp.s
 
+Evaluator.o: Evaluator.cpp.o
+
+.PHONY : Evaluator.o
+
+# target to build an object file
+Evaluator.cpp.o:
+	cd /home/deilson/Alura/auction/build && $(MAKE) -f auction/CMakeFiles/auction.dir/build.make auction/CMakeFiles/auction.dir/Evaluator.cpp.o
+.PHONY : Evaluator.cpp.o
+
+Evaluator.i: Evaluator.cpp.i
+
+.PHONY : Evaluator.i
+
+# target to preprocess a source file
+Evaluator.cpp.i:
+	cd /home/deilson/Alura/auction/build && $(MAKE) -f auction/CMakeFiles/auction.dir/build.make auction/CMakeFiles/auction.dir/Evaluator.cpp.i
+.PHONY : Evaluator.cpp.i
+
+Evaluator.s: Evaluator.cpp.s
+
+.PHONY : Evaluator.s
+
+# target to generate assembly for a file
+Evaluator.cpp.s:
+	cd /home/deilson/Alura/auction/build && $(MAKE) -f auction/CMakeFiles/auction.dir/build.make auction/CMakeFiles/auction.dir/Evaluator.cpp.s
+.PHONY : Evaluator.cpp.s
+
 Throw.o: Throw.cpp.o
 
 .PHONY : Throw.o
@@ -218,6 +245,9 @@ help:
 	@echo "... Auction.o"
 	@echo "... Auction.i"
 	@echo "... Auction.s"
+	@echo "... Evaluator.o"
+	@echo "... Evaluator.i"
+	@echo "... Evaluator.s"
 	@echo "... Throw.o"
 	@echo "... Throw.i"
 	@echo "... Throw.s"
